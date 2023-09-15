@@ -5,8 +5,6 @@ on:
     branches: [ main, node ]
   pull_request:
     branches: [ main, node ]
-  workflow_run:
-    workflows: ["Run All Tests"]
 
 
 jobs:
